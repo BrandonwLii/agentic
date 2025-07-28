@@ -23,6 +23,8 @@
 #          uv pip install -e "./agentic[all,dev]" --extra-index-url https://download.pytorch.org/whl/cpu --index-strategy unsafe-first-match
 #      - name: Run pr review agent
 #        run: |
-          
+#         py agent.py
+#agent.finalresult() 
+#look into deep researcher programatic workflow to open comment
 #        env: 
 #          super_secret: ${{ secrets.OpenAIKey }}
